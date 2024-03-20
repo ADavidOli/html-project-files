@@ -1,14 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>registro</title>
+    <title>Registro</title>
+    <link rel="stylesheet" href="StyleUser.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 
 <body>
+    <header>
+        <h2 id="titulo">Registro en html basico</h2>
+    </header>
+    <div class="base">
+        <div class="form">
+            <div class="cabeza">
+                <h1>Registrate</h1>
+            </div>
+            <form action="" method="get" class="form-user">
+                <label for="nombre"><i class="fas fa-user"></i>
+                    Nombre </label>
+                <input type="text" name="nombre-get" id="text-input" required><br>
+                <label for="correo"><i class="fas fa-envelope"></i>
+                    Email</label>
+                <input type="text" name="correo-get" id="text-input" required><br>
+                <label for="contrasena"><i class="fas fa-lock"></i>
+                    contraseña</label>
+                <input type="password" name="contra-get" id="text-input" required><br>
+                <button type="submit" name="Registrate" id="">Registrate</button>
 
+
+            </form>
+        </div>
+    </div>
+    <footer>
+        <section>
+            <h3> para mas proyectos <a href="https://github.com/ADavidOli">contactame</a></h3>
+        </section>
+    </footer>
 </body>
 
 </html>
