@@ -1,0 +1,105 @@
+.containerVentas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /*justifica de forma horizontal los elementos*/
+    align-items: center;   
+    width: 100%;
+    margin: auto;
+}
+.productoAlimento {
+    width: 250px;
+    padding: 5px;
+    height: 320px;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+    text-align: center; 
+    margin: 10px;
+    background-color: darkgrey;
+    color: #fff;
+}
+.productoAlimento h4{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+.productoAlimento p{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+.productoAlimento img{
+    margin: 10px;
+    height: 200px;
+    width: auto;
+    border-radius: 20%;
+}
+.buttonSell {
+    background-color: #e0d539; /*Color de fondo */
+    border: 2px solid #ccc;
+    color: white;             /* Color del texto */
+    padding: 10px 20px;       /* Espaciado interior */
+    text-align: center;       /* Alineación del texto */
+    text-decoration: none;    /* Decoración del texto */
+    display: inline-block;    /* Mostrar como bloque en línea */
+    font-size: 16px;          /* Tamaño de la fuente */
+    border-radius: 5px;       /* Radio de borde */
+  }
+  div button:hover{
+    background-color: #e03e39;
+  }
+  .productoAperro{
+    width: 250px;
+    height: 320px;
+    padding: 5px;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+    text-align: center; 
+    margin: 10px;
+    background-color: darkgrey;
+    color: #fff;
+  }
+  .productoAperro h4{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+.productoAperro p{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+.productoAperro img{
+    margin: 10px;
+    height: 200px;
+    width: auto;
+    border-radius: 20%;
+}
+
+/* prueba para un solo estilo en una sola class de un div, reutilizacion de codigo */
+.producto{
+    width: 250px;
+    height: 320px;
+    padding: 5px;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+    text-align: center; 
+    margin: 10px;
+    background-color: darkgrey;
+    color: #fff;
+  }
+  .producto h4{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+.producto p{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+.producto img{
+    margin: 10px;
+    height: 200px;
+    width: auto;
+    border-radius: 20%;
+}
