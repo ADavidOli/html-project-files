@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: beige;
+}
+/* style para la cabecera dentro de un blog o pagina web */
+#cabecera{
+    background-color: azure;
+    border: 5px solid chocolate;
+    border-radius: 15px;
+    color: chocolate;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cabecera h3{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#cabecera nav{
+    display: flex;
+    align-items: center;
+}
+#cabecera nav .menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+#cabecera nav .menu li{
+    margin: 5px;
+}
+#cabecera nav .menu li a {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: chocolate;
+}
+ a:hover{
+    color: rgb(121, 255, 88);
+}
+.logo{
+    display: flex;
+}
+.logo img{
+width: 50px;
+height: 60px;
+margin: 0;
+border-radius: 50%;
+}
+/* style para el contenido-fondo del blog */
+.fondoBlog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    /* background-color: aqua; */
+}
+/* style para el contenido-blog */
+.contenido{
+    float: left;
+    padding: 5px;
+    height: auto;
+    width: 800px;
+    margin: 20px;
+    background-color: darkgrey;
+    border: 5px solid green;
+    border-radius: 15px;
+}
+/* style para los article de nuestro blog */
+div article{ 
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    padding: 1rem 0 0;
+    cursor: pointer;
+    text-align: center;
+}
+/* style para parrafo dentri de nuestro article */
+div article p{
+    margin: 10px;
+}
+/* box shadow agrega una animacion en el cursor cuando nos colocamos en nuestro article */
+div article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 3);
+}
+
+.Antojitos img{
+width: 400px;
+height: 300px;
+}
+/* style de barra lateral con form */
+.barraLateral{
+float: right;
+padding: 5px;
+height: auto;
+width: 300px;
+margin: 10px;
+border: 5px solid blue;
+border-radius: 15px;
+}
+
+/* style para nuestro pie de pagina */
+footer{
+    background-color: #333;
+    border: 5px solid purple;
+    border-radius: 15px;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    margin-top: auto;
+}
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: chocolate;
+}
