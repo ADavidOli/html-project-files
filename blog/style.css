@@ -12,6 +12,7 @@ body{
     border: 5px solid chocolate;
     border-radius: 15px;
     color: chocolate;
+    margin: 10px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -21,6 +22,8 @@ body{
     font-family: "Edu NSW ACT Foundation", cursive;
     font-optical-sizing: auto;
     font-style: normal;
+    font-size: 30px;
+    margin: 0;
 }
 #cabecera nav{
     display: flex;
@@ -68,7 +71,7 @@ border-radius: 50%;
     padding: 5px;
     height: auto;
     width: 800px;
-    margin: 20px;
+    margin: 20px auto 10px;
     background-color: darkgrey;
     border: 5px solid green;
     border-radius: 15px;
@@ -86,6 +89,7 @@ div article{
 /* style para parrafo dentri de nuestro article */
 div article p{
     margin: 10px;
+    padding: 10px;
 }
 /* box shadow agrega una animacion en el cursor cuando nos colocamos en nuestro article */
 div article:hover{
@@ -102,11 +106,87 @@ float: right;
 padding: 5px;
 height: auto;
 width: 300px;
-margin: 10px;
+margin: -104% auto 10px; /* Agregamos un margen superior y un margen inferior automático */
 border: 5px solid blue;
 border-radius: 15px;
 }
 
+.containerwho{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.imagenpresent{
+display: flex;
+justify-content: center;
+justify-items: center;
+}
+.containerwho label{
+color: chocolate;
+}
+.imagenpresent img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.containerex h4{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* container para el formulario y extra */
+.containerex{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: #fff;
+    background-color: #333;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+/* style para nuestro formulario y elementos */
+.formulario{
+    padding: 10px;
+    margin: 10px; 
+    justify-content: center;
+    justify-items: center;
+    color: #fff;
+    background-color: rgb(201, 4, 4);
+    border-radius: 15px;
+}
+.formulario h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-style: oblique;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+}
+.formulario input[type="text-input"]{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.formulario button{
+    background-color: #333;
+    color: #fff;
+}
+.formulario input[type="checkbox"]{
+margin: 10px;
+}
+.formulario p{
+    text-align: justify;
+}
 /* style para nuestro pie de pagina */
 footer{
     background-color: #333;
