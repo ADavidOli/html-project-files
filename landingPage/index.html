@@ -1,1 +1,98 @@
-aquí hare una landing page utilizando boostrap v5
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <header id="cabecera">
+        <div class="logo">
+            <img src="imgs/recorte.png" alt="">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li> <a href=" #"> Servicios</a></li>
+                <li> <a href="#"> Clinica</a></li>
+                <li> <a href="#"> Registrarse</a></li>
+                <li><a href=""> Cuenta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="homefull">
+        <div class="container">
+            <div class="inicio">
+                <h1>Todo para tu gato.</h1>
+                <p>Encontrarás todo lo que necesitas para consentir a tu gato. Desde alimentos premium hasta juguetes
+                    interactivos y accesorios elegantes, tenemos una amplia gama de productos seleccionados
+                    cuidadosamente para satisfacer las necesidades y gustos de tu felino. Descubre la experiencia de
+                    comprar en línea de manera fácil y segura, y bríndale a tu gato el cuidado y la atención que se
+                    merece.</p>
+                <a href="#productos" class="btn">Vamos!</a>
+            </div>
+            <div class="imagenfull">
+                <div class="fondo-circle">
+                    <img src="imgs/ddd.png" alt="imagen de gato">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fullProductos">
+        <div class="containerProdu">
+            <div class="formulario">
+                <h1> ¿Te gustaria conocer más?</h1>
+                <p>Proporciona un correo y te enviaremos más informacion para tu amigo felino</p>
+                <form action="#" method="get">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name"><br>
+                    <label for="correo">Email:</label>
+                    <input type="text" id="Email"><br>
+                    <button type="submit" name="enviar"> ¡Me apunto!</button>
+                </form>
+                <div>
+                    <input type="checkbox"> Acepto la politica de Privacidad
+                    <p>
+                        Podemos recopilar información personal identificable de los usuarios de diversas maneras,
+                        incluyendo, pero no limitado a, cuando los usuarios visitan nuestro sitio, se registran en el
+                        sitio, realizan un pedido, completan un formulario, responden a una encuesta y en relación con
+                        otras actividades, servicios, características o recursos que ponemos a disposición en nuestro
+                        Sitio web. Se puede pedir a los usuarios, según corresponda, nombre, dirección de correo
+                        electrónico, dirección postal, número de teléfono, información de tarjeta de crédito.
+                    </p>
+                </div>
+            </div>
+
+            <div id="productos">
+                <h2>Nuestros Productos Destacados</h2>
+                <div class="producto">
+                    <img src="imgs/campaña.webp" alt="Producto 1">
+                    <h3>Cama Estilo Campaña</h3>
+                    <p>Descripción del producto 1.</p>
+                    <a href="#">Comprar ahora</a>
+                </div>
+                <div class="producto">
+                    <img src="imgs/rascador.jpg" alt="Producto 2">
+                    <h3>Rascador casa</h3>
+                    <p>Descripción del producto 2.</p>
+                    <a href="#">Comprar ahora</a>
+                </div>
+            </div>
+        </div>
+        <div class="iconSearch">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/ADavidOli"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Mi Empresa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
