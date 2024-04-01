@@ -4,6 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    min-width: none;
     background-color: beige;
 }
 /* style para la cabecera dentro de un blog o pagina web */
@@ -102,13 +103,17 @@ height: 300px;
 }
 /* style de barra lateral con form */
 .barraLateral{
-float: right;
-padding: 5px;
-height: auto;
-width: 300px;
-margin: -104% auto 10px; /* Agregamos un margen superior y un margen inferior automático */
-border: 5px solid blue;
-border-radius: 15px;
+    position: relative;
+    float: right;
+    padding: 5px;
+    height: auto;
+    width: 300px;
+    margin-top: -80%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid blue;
+    border-radius: 15px;
 }
 
 .containerwho{
