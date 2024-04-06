@@ -1,0 +1,163 @@
+/* references for fonts google */
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Montserrat:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body, html{
+    background-color: #222831;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* textos y parrafos */
+
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+p{
+    color: #fff;
+}
+/* Use Class methods */
+
+/* navbar */
+#NavBar{
+    overflow: auto;
+    padding: 10px;
+}
+#NavBar img{
+    float: left;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+#NavBar ul{
+    list-style: none;
+    float: right;
+    padding: 10px;
+}
+#NavBar ul li{
+    float: left;
+}
+#NavBar a{
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 15px;
+    text-align: center;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+
+    }
+     #NavBar a:hover{
+        background-color: #76ABAE;
+    }
+
+
+/* dashboar */
+.Dash-me{
+    background: url('imagenes/base.avif') no-repeat;
+    background-size: cover ;
+    height: 500px ;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+/* box presentacion */
+.present{
+    background: rgba(0, 0, 2, .40);
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+/* imagen presentacion */
+.present img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.btn-outline{
+    background: rgba(0, 0, 2, .40);
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.btn-outline:hover{
+    background-color: rgba(0, 0, 0, .4);
+    border: 1px solid #76ABAE;
+    color: #76ABAE;
+}
+#Projects{
+    height: 500px ;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #31363F; 
+}
+#Certificados{
+    height: 500px ;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #31363F; 
+}
+/* sobre mi */
+#About{
+    height: 500px ;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #31363F; 
+}
+.About-ind{
+    display: flex;
+}
+.experience-row,.about-row{
+    width: 50%;
+    padding-left: 50px;
+}
+/* contacto */
+#Contact{
+    height: 500px ;
+    margin: 10px;
+    padding: 15px ;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #31363F; 
+}
+.contact-ind{
+    display: flex;
+}
+.icon-row{
+    margin-top: 100px;
+    width: 33%;
+}
+.icon-row a img{
+    height: 100px; 
+
+}
+
+#foot, #foot a {
+color: #fff;
+text-decoration: none;
+}
